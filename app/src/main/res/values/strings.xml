@@ -6,4 +6,25 @@
 
     <!-- Text to display in the list when there are no earthquakes -->
     <string name="no_news">No news found.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_order_by_label">Order by</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Strings For News per page Preference -->
+    <string name="settings_news_per_page_label">News per page</string>
+    <string name="settings_news_per_page_key" translatable="false">news_per_page</string>
+    <string name="settings_news_per_page_default" translatable="false">20</string>
 </resources>
